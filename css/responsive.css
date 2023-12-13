@@ -1,0 +1,35 @@
+.container {
+    /* devo sovrascivere la width dell'altro foglio di stile */
+    width: 100%;
+    max-width: 1140px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+        background-color: #202020;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .steps {
+        margin: 3rem 0;
+        margin-bottom: 3rem;
+        padding: 3rem 0;
+        color: #232946;
+        background: #eebbc3;
+        margin-bottom: 0;
+    }
+}
